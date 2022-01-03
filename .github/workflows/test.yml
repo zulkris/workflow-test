@@ -1,0 +1,2 @@
+- name: Hexlet project action
+  uses: Hexlet/project-action@v2
