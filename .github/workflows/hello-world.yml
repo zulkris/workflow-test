@@ -11,7 +11,7 @@ jobs:
     steps: # список шагов, которые надо выполнить
       # экшен, выполняет какую-то задачу
       # checkout – клонирует репозиторий
-      - uses: actions/checkout@v2
+      - uses: Hexlet/project-action@v2
       # run – произвольная bash-команда
       # ls -la выведет содержимое текущего репозитория
       - run: ls -la
